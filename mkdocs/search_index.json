@@ -1,0 +1,154 @@
+{
+    "docs": [
+        {
+            "location": "/", 
+            "text": "Overview of the Project\n\n\nOpenAppHack (OAH)\n is built on top of opensource DevOps tools\n\n\nOAH is a vendor neutral environment provision approach that enables rapid development and prototyping of open source solution.\n\n\nOAH encourages experimenting freely with open source application on frugal open hardware like Raspberry pi cluster and also helps easy migration of cloud deployments back to frugal physical hardware where it is feasible.\n\n\nSummary of Key Features\n\n\nOAH automates the provisioning of opensource virtual Environments (VEs) .\n\n\nEnvironment Provisioning\n: Using vagrant /virtual box/docker/runc as the virtualization/containerization software or directly on to an RPI (Raspberry pi)  cluster.\n\n\nManagement of Environment\n : Enable self update ,upgrade, application configuration changes and user access modification for various environments through shell access or an OAH Launcher Application.\n\n\nExtend and Crowd-source, Customize Environments\n : Quickly setup the necessary tools and software required to get started on opensource technologies \n Frameworks.\n\n\nFeatures\n\n\nVisit this link \nFeatures\n for the detailed description.\n\n\nDesign\n\n\nOAH ROLE Specification\n\n\nOAH VM Specification\n\n\nOAH PI VM Specification\n\n\nOAH CLUSTER Specification\n\n\nOAH PI CLUSTER Specification\n\n\nOAH components\n\n\nDevelopers Info\n\n\nHow to Contribute\n\n\nDeveloper resources\n\n\nSub projects\n\n\n\n\n\n\nOAH-shell\n\n\n\n\n\n\nOAH-Env\n\n\n\n\n\n\nOAH Ansible Roles\n\n\n\n\n\n\nOAH ENV STATS\n\n\n\n\n\n\nOAH INFRA STATS\n\n\n\n\n\n\nOAH Tools\n\n\n\n\n\n\nOAH Installer\n\n\n\n\n\n\nRelease Plan\n\n\nVisit this link \nRelease Plan\n for the detailed description.\n\n\nRoadmap\n\n\nVisit this link \nRoadmap\n.\n\n\nUsage\n\n\nPurpose should be\n Training and Evaluation\n\n\nInstruction\n\n\nvisit \noah-installer\n\n\nLink to \nOAH User Guide\n\n\nOAH COOK BOOK \n\n\nLicense\n\n\nMIT/BSD.\n\n\nKey Contributors\n\n\n\n\nName : Vinod Panicker\n\n\nEmail : vinod.panicker@wipro.com\n\n\n\n\nMaintainers\n\n\n\n\nName : Vinod Panicker\n\n\nEmail : vinod.panicker@wipro.com", 
+            "title": "Home"
+        }, 
+        {
+            "location": "/#overview-of-the-project", 
+            "text": "OpenAppHack (OAH)  is built on top of opensource DevOps tools  OAH is a vendor neutral environment provision approach that enables rapid development and prototyping of open source solution.  OAH encourages experimenting freely with open source application on frugal open hardware like Raspberry pi cluster and also helps easy migration of cloud deployments back to frugal physical hardware where it is feasible.", 
+            "title": "Overview of the Project"
+        }, 
+        {
+            "location": "/#summary-of-key-features", 
+            "text": "OAH automates the provisioning of opensource virtual Environments (VEs) .  Environment Provisioning : Using vagrant /virtual box/docker/runc as the virtualization/containerization software or directly on to an RPI (Raspberry pi)  cluster.  Management of Environment  : Enable self update ,upgrade, application configuration changes and user access modification for various environments through shell access or an OAH Launcher Application.  Extend and Crowd-source, Customize Environments  : Quickly setup the necessary tools and software required to get started on opensource technologies   Frameworks.", 
+            "title": "Summary of Key Features"
+        }, 
+        {
+            "location": "/#features", 
+            "text": "Visit this link  Features  for the detailed description.", 
+            "title": "Features"
+        }, 
+        {
+            "location": "/#design", 
+            "text": "OAH ROLE Specification  OAH VM Specification  OAH PI VM Specification  OAH CLUSTER Specification  OAH PI CLUSTER Specification  OAH components", 
+            "title": "Design"
+        }, 
+        {
+            "location": "/#developers-info", 
+            "text": "How to Contribute  Developer resources", 
+            "title": "Developers Info"
+        }, 
+        {
+            "location": "/#sub-projects", 
+            "text": "OAH-shell    OAH-Env    OAH Ansible Roles    OAH ENV STATS    OAH INFRA STATS    OAH Tools    OAH Installer", 
+            "title": "Sub projects"
+        }, 
+        {
+            "location": "/#release-plan", 
+            "text": "Visit this link  Release Plan  for the detailed description.", 
+            "title": "Release Plan"
+        }, 
+        {
+            "location": "/#roadmap", 
+            "text": "Visit this link  Roadmap .", 
+            "title": "Roadmap"
+        }, 
+        {
+            "location": "/#usage", 
+            "text": "Purpose should be  Training and Evaluation  Instruction  visit  oah-installer  Link to  OAH User Guide", 
+            "title": "Usage"
+        }, 
+        {
+            "location": "/#oah-cook-book", 
+            "text": "", 
+            "title": "OAH COOK BOOK"
+        }, 
+        {
+            "location": "/#license", 
+            "text": "MIT/BSD.", 
+            "title": "License"
+        }, 
+        {
+            "location": "/#key-contributors", 
+            "text": "Name : Vinod Panicker  Email : vinod.panicker@wipro.com", 
+            "title": "Key Contributors"
+        }, 
+        {
+            "location": "/#maintainers", 
+            "text": "Name : Vinod Panicker  Email : vinod.panicker@wipro.com", 
+            "title": "Maintainers"
+        }, 
+        {
+            "location": "/features/features/", 
+            "text": "RF0.1 \nOAH installation\n\n\noah_installer installs ove-shell :\n\n\na) On Ubuntu Host machine\n\n      - with git and curl\n      - with ansible\n\nb) On Windows Host without Ansible\n      - with git bash ,curl and vagrant\n      - with a launcher App\n\nc) OAH setup on client machines\n      - Using ansible\n\n\n\nTarget Host Machines are\n\n\na) Ubuntu Host machine\n\n\nb) Windows(7/8/10) Host without Ansible\n\n\nc) MacOS\n\n\nTarget Client Machines :\n\n\na) OAH setup on\n\n\n\n\noah-vm.box,\n\n\nubuntu14.04.box\n\n\nubuntu16.04.box\n\n\nvirtualenv.box\n\n\n\n\nOther environments\n\n\n\n\noah-pi.box\n\n\n\n\nUsing virtualBox and oah-pi.box\n\n\nUsing vagrant with ove-vm.box\n\n\nPrepare oah-vm.box with ansible \n base os -\n publish box to cdn-\n developer downloads vagrant,virtualbox,gitbash-\n setup of oah-shell is done on host -\n use oah-cli to switch to oah-vm of choice.\n\n\nAnother alternative Install paths can be created using Docker or runc.\n\n\nRF0.2 \nEnvironment Provisioning using OAH\n\n\nProvisioning OAH VMs using OAH-INFRA\n\n\n\n\n\n\nOn physical ubuntu machine\n\n\n\n\n\n\nOn Vagrant Machine\n\n\n\n\n\n\nOn Docker Machines\n\n\n\n\n\n\nUsing runc\n\n\n\n\n\n\nProvisioning OAH Clusters using OAH-INFRA\n\n\n\n\n\n\nOn physical ubuntu machine\n\n\n\n\n\n\nOn Vagrant Machine\n\n\n\n\n\n\nOn Docker Machines\n\n\n\n\n\n\nUsing runc\n\n\n\n\n\n\nRF0.3 \nValidation of VMs and Clusters\n\n\n\n\n\n\nOAH-STATS\n\n\n\n\n\n\nOAH-TEST-VM\n\n\n\n\n\n\nRF0.4 \nBuilding Blocks for New VMs and Clusters\n\n\n\n\n\n\nOAH-Ansible-Roles\n\n\n\n\n\n\nOAH-Tools\n\n\n\n\n\n\nGenerators\n\n\n\n\n\n\nTesting tools   \n\n\n\n\n\n\n\n\n\n\nOAH-INFRA\n\n\n- For Base Box/Image Distribution\n\n- For Regression Testing of Envs\n\n- Hosting OAH Dashboard generated from oah-stats\n\n\n\n\n\n\n\nRF0.5 \nPrepare for community Contributed components\n\n\n\n\n\n\nAdding OAH-Ansible-Roles\n\n\n\n\n\n\nAdding more Environments (a.k.a oah-vms or oah-clusters)\n        -VM\n        -clusters", 
+            "title": "OAH Features"
+        }, 
+        {
+            "location": "/features/features/#rf01-oah-installation", 
+            "text": "oah_installer installs ove-shell :  a) On Ubuntu Host machine\n\n      - with git and curl\n      - with ansible\n\nb) On Windows Host without Ansible\n      - with git bash ,curl and vagrant\n      - with a launcher App\n\nc) OAH setup on client machines\n      - Using ansible  Target Host Machines are  a) Ubuntu Host machine  b) Windows(7/8/10) Host without Ansible  c) MacOS  Target Client Machines :  a) OAH setup on   oah-vm.box,  ubuntu14.04.box  ubuntu16.04.box  virtualenv.box   Other environments   oah-pi.box", 
+            "title": "RF0.1 OAH installation"
+        }, 
+        {
+            "location": "/features/features/#using-virtualbox-and-oah-pibox", 
+            "text": "", 
+            "title": "Using virtualBox and oah-pi.box"
+        }, 
+        {
+            "location": "/features/features/#using-vagrant-with-ove-vmbox", 
+            "text": "Prepare oah-vm.box with ansible   base os -  publish box to cdn-  developer downloads vagrant,virtualbox,gitbash-  setup of oah-shell is done on host -  use oah-cli to switch to oah-vm of choice.  Another alternative Install paths can be created using Docker or runc.", 
+            "title": "Using vagrant with ove-vm.box"
+        }, 
+        {
+            "location": "/features/features/#rf02-environment-provisioning-using-oah", 
+            "text": "Provisioning OAH VMs using OAH-INFRA    On physical ubuntu machine    On Vagrant Machine    On Docker Machines    Using runc    Provisioning OAH Clusters using OAH-INFRA    On physical ubuntu machine    On Vagrant Machine    On Docker Machines    Using runc", 
+            "title": "RF0.2 Environment Provisioning using OAH"
+        }, 
+        {
+            "location": "/features/features/#rf03-validation-of-vms-and-clusters", 
+            "text": "OAH-STATS    OAH-TEST-VM", 
+            "title": "RF0.3 Validation of VMs and Clusters"
+        }, 
+        {
+            "location": "/features/features/#rf04-building-blocks-for-new-vms-and-clusters", 
+            "text": "OAH-Ansible-Roles    OAH-Tools    Generators    Testing tools         OAH-INFRA  - For Base Box/Image Distribution\n\n- For Regression Testing of Envs\n\n- Hosting OAH Dashboard generated from oah-stats", 
+            "title": "RF0.4 Building Blocks for New VMs and Clusters"
+        }, 
+        {
+            "location": "/features/features/#rf05-prepare-for-community-contributed-components", 
+            "text": "Adding OAH-Ansible-Roles    Adding more Environments (a.k.a oah-vms or oah-clusters)\n        -VM\n        -clusters", 
+            "title": "RF0.5 Prepare for community Contributed components"
+        }, 
+        {
+            "location": "/design/oah-components/", 
+            "text": "", 
+            "title": "OAH Components"
+        }, 
+        {
+            "location": "/design/oah-vm-specification/", 
+            "text": "", 
+            "title": "OAH VM Specification"
+        }, 
+        {
+            "location": "/design/oah-role-specification/", 
+            "text": "", 
+            "title": "OAH ROLE Specification"
+        }, 
+        {
+            "location": "/design/oah-pi-specification/", 
+            "text": "", 
+            "title": "OAH PI Specification"
+        }, 
+        {
+            "location": "/design/oah-cluster-specification/", 
+            "text": "", 
+            "title": "OAH Cluster Specification"
+        }, 
+        {
+            "location": "/design/oah-pi-cluster-specification/", 
+            "text": "", 
+            "title": "OAH PI Cluster Specification"
+        }, 
+        {
+            "location": "/developer-info/how-to-contribute/", 
+            "text": "", 
+            "title": "How To Contribute"
+        }, 
+        {
+            "location": "/developer-info/developer-resources/", 
+            "text": "", 
+            "title": "Developer Resources"
+        }
+    ]
+}
