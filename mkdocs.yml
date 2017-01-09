@@ -1,0 +1,26 @@
+site_name: OAH Documentation
+
+repo_url: https://github.com/openapphack/OAH
+site_description: 'A vendor neutral DevOps solution'
+theme: readthedocs
+
+extra_javascript:
+  - js/fix_search.js
+
+markdown_extensions:
+  - toc:
+      permalink: True
+
+pages:
+  - Home: 'index.md'
+  - OAH Features:'features/features.md'
+  - Design:
+    - 'OAH Components': 'design/oah-components.md'
+    - 'OAH VM Specification': 'design/oah-vm-specification.md'
+    - 'OAH ROLE Specification': 'design/oah-role-specification.md'
+    - 'OAH PI Specification': 'design/oah-pi-specification.md'
+    - 'OAH Cluster Specification': 'design/oah-cluster-specification.md'
+    - 'OAH PI Cluster Specification': 'design/oah-pi-cluster-specification.md'
+  - Developer Info:
+    - 'How To Contribute': 'developer-info/how-to-contribute.md'
+    - 'Developer Resources': 'developer-info/developer-resources.md'
