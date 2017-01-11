@@ -36,9 +36,9 @@ Visit this link [Features](Features) for the detailed description.
 
 # Developers Info
 
-[How to Contribute](How-To-Contribute)
+[How to Contribute](https://openapphack.github.io/OAH/developer-info/how-to-contribute/)
 
-[Developer resources](OAH-Developer-Resources)
+[Developer resources](https://openapphack.github.io/OAH/developer-info/developer-resources/)
 
 # Sub projects
 
