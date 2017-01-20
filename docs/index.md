@@ -16,67 +16,6 @@ OAH automates the provisioning of opensource virtual Environments (VEs) .
 
 **Extend and Crowd-source, Customize Environments** : Quickly setup the necessary tools and software required to get started on opensource technologies & Frameworks.
 
-# Features
-
-Visit this link [Features](Features) for the detailed description.
-
-# Design
-
-[OAH ROLE Specification](OAH-ROLE-SPECIFICATION)
-
-[OAH VM Specification](OAH-VM-SPECIFICATION)
-
-[OAH PI VM Specification](OAH-PI-VM-SPECIFICATION)
-
-[OAH CLUSTER Specification](OAH-CLUSTER-SPECIFICATION)
-
-[OAH PI CLUSTER Specification](OAH-PI-CLUSTER-SPECIFICATION)
-
-[OAH components](OAH-components)
-
-# Developers Info
-
-[How to Contribute](https://openapphack.github.io/OAH/developer-info/how-to-contribute/)
-
-[Developer resources](https://openapphack.github.io/OAH/developer-info/developer-resources/)
-
-# Sub projects
-
-- [OAH-shell](http://github.com/openapphack/oah-shell)
-
-- [OAH-Env](OAH-ENVs)
-
-- [OAH Ansible Roles](OAH-Ansible-Roles)
-
-- [OAH ENV STATS](http://github.com/openapphack/oah-env-stat)
-
-- [OAH INFRA STATS](http://github.com/openapphack/oah-infra-stat)
-
-- [OAH Tools](OAH-Tools)
-
-- [OAH Installer](http://github.com/openapphack/oah-installer)
-
-# Release Plan
-
-Visit this link [Release Plan](Release-Plan) for the detailed description.
-
-# Roadmap
-
-Visit this link [Roadmap](Roadmap).
-
-## Usage
-
-**Purpose should be** Training and Evaluation
-
-Instruction
-
-visit [oah-installer](http://github.com/openapphack/oah-installer)
-
-
-Link to [OAH User Guide](OAH_User_Guide)
-
-### [OAH COOK BOOK ](OAH_Cook_Book)
-
 
 ## License
 

@@ -13,7 +13,7 @@ markdown_extensions:
 
 pages:
   - Home: 'index.md'
-  - OAH Features:'features/features.md'
+  - 'OAH Features': 'features/features.md'
   - Design:
     - 'OAH Components': 'design/oah-components.md'
     - 'OAH VM Specification': 'design/oah-vm-specification.md'
