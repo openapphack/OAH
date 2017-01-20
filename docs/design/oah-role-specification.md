@@ -33,5 +33,5 @@ oah_command : Is used to determine the operation mode of a role.
 
 oah_command param can have the following values => **install** , **remove** , **reset** , **update** and **validate** )
 
-oah_command will default to update , it can have values install,remove, reset, update and validate. (i.e If OAH_COMMAND env variable is not set by the oah-scripts and if the environment playbooks are not set by the ove_command variable, main.yml will include oah_update.yml or oah_install.yml if the role has not be installed yet.)
+oah_command will default to update , it can have values install,remove, reset, update and validate. (i.e If OAH_COMMAND env variable is not set by the oah-scripts and if the environment playbooks are not set by the oah_command variable, main.yml will include oah_update.yml or oah_install.yml if the role has not be installed yet.)
 
