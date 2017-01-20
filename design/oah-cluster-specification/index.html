@@ -175,7 +175,18 @@
           <div role="main">
             <div class="section">
               
-                
+                <p><strong>Layout</strong></p>
+<p>OAH CLUSTER will be a git repository</p>
+<p>Must have a provisioning and testing folder</p>
+<p><strong>Naming Convention</strong> :</p>
+<p>OAH CLUSTER git repository will have the following naming convention OAH-XXXX-CLUSTER . where XXXX is the VM Type Name that uniquely identified the purpose of the VM</p>
+<p><strong>Must Have files</strong> : </p>
+<p>Must have an invertory file and each group in the inventory file can have one or more vm</p>
+<p>OAH CLUSTER provisioning folder must have subfolder for each vm in the cluster</p>
+<p>Each vm in the cluster will have playbook.yml as well as install.yml, reset.yml &amp; remove.yml 
+Must have a requirements.yml in the each vm folder</p>
+<p>OAH CLUSTER must have VagrantFile,in vagrant folder ,<br />
+DockerFile  in docker folder and a raw install.sh in top level ove-cluster root folder</p>
               
             </div>
           </div>

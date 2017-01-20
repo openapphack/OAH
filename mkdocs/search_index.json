@@ -2,7 +2,7 @@
     "docs": [
         {
             "location": "/", 
-            "text": "Overview of the Project\n\n\nOpenAppHack (OAH)\n is built on top of opensource DevOps tools\n\n\nOAH is a vendor neutral environment provision approach that enables rapid development and prototyping of open source solution.\n\n\nOAH encourages experimenting freely with open source application on frugal open hardware like Raspberry pi cluster and also helps easy migration of cloud deployments back to frugal physical hardware where it is feasible.\n\n\nSummary of Key Features\n\n\nOAH automates the provisioning of opensource virtual Environments (VEs) .\n\n\nEnvironment Provisioning\n: Using vagrant /virtual box/docker/runc as the virtualization/containerization software or directly on to an RPI (Raspberry pi)  cluster.\n\n\nManagement of Environment\n : Enable self update ,upgrade, application configuration changes and user access modification for various environments through shell access or an OAH Launcher Application.\n\n\nExtend and Crowd-source, Customize Environments\n : Quickly setup the necessary tools and software required to get started on opensource technologies \n Frameworks.\n\n\nFeatures\n\n\nVisit this link \nFeatures\n for the detailed description.\n\n\nDesign\n\n\nOAH ROLE Specification\n\n\nOAH VM Specification\n\n\nOAH PI VM Specification\n\n\nOAH CLUSTER Specification\n\n\nOAH PI CLUSTER Specification\n\n\nOAH components\n\n\nDevelopers Info\n\n\nHow to Contribute\n\n\nDeveloper resources\n\n\nSub projects\n\n\n\n\n\n\nOAH-shell\n\n\n\n\n\n\nOAH-Env\n\n\n\n\n\n\nOAH Ansible Roles\n\n\n\n\n\n\nOAH ENV STATS\n\n\n\n\n\n\nOAH INFRA STATS\n\n\n\n\n\n\nOAH Tools\n\n\n\n\n\n\nOAH Installer\n\n\n\n\n\n\nRelease Plan\n\n\nVisit this link \nRelease Plan\n for the detailed description.\n\n\nRoadmap\n\n\nVisit this link \nRoadmap\n.\n\n\nUsage\n\n\nPurpose should be\n Training and Evaluation\n\n\nInstruction\n\n\nvisit \noah-installer\n\n\nLink to \nOAH User Guide\n\n\nOAH COOK BOOK \n\n\nLicense\n\n\nMIT/BSD.\n\n\nKey Contributors\n\n\n\n\nName : Vinod Panicker\n\n\nEmail : vinod.panicker@wipro.com\n\n\n\n\nMaintainers\n\n\n\n\nName : Vinod Panicker\n\n\nEmail : vinod.panicker@wipro.com", 
+            "text": "Overview of the Project\n\n\nOpenAppHack (OAH)\n is built on top of opensource DevOps tools\n\n\nOAH is a vendor neutral environment provision approach that enables rapid development and prototyping of open source solution.\n\n\nOAH encourages experimenting freely with open source application on frugal open hardware like Raspberry pi cluster and also helps easy migration of cloud deployments back to frugal physical hardware where it is feasible.\n\n\nSummary of Key Features\n\n\nOAH automates the provisioning of opensource virtual Environments (VEs) .\n\n\nEnvironment Provisioning\n: Using vagrant /virtual box/docker/runc as the virtualization/containerization software or directly on to an RPI (Raspberry pi)  cluster.\n\n\nManagement of Environment\n : Enable self update ,upgrade, application configuration changes and user access modification for various environments through shell access or an OAH Launcher Application.\n\n\nExtend and Crowd-source, Customize Environments\n : Quickly setup the necessary tools and software required to get started on opensource technologies \n Frameworks.\n\n\nLicense\n\n\nMIT/BSD.\n\n\nKey Contributors\n\n\n\n\nName : Vinod Panicker\n\n\nEmail : vinod.panicker@wipro.com\n\n\n\n\nMaintainers\n\n\n\n\nName : Vinod Panicker\n\n\nEmail : vinod.panicker@wipro.com", 
             "title": "Home"
         }, 
         {
@@ -14,46 +14,6 @@
             "location": "/#summary-of-key-features", 
             "text": "OAH automates the provisioning of opensource virtual Environments (VEs) .  Environment Provisioning : Using vagrant /virtual box/docker/runc as the virtualization/containerization software or directly on to an RPI (Raspberry pi)  cluster.  Management of Environment  : Enable self update ,upgrade, application configuration changes and user access modification for various environments through shell access or an OAH Launcher Application.  Extend and Crowd-source, Customize Environments  : Quickly setup the necessary tools and software required to get started on opensource technologies   Frameworks.", 
             "title": "Summary of Key Features"
-        }, 
-        {
-            "location": "/#features", 
-            "text": "Visit this link  Features  for the detailed description.", 
-            "title": "Features"
-        }, 
-        {
-            "location": "/#design", 
-            "text": "OAH ROLE Specification  OAH VM Specification  OAH PI VM Specification  OAH CLUSTER Specification  OAH PI CLUSTER Specification  OAH components", 
-            "title": "Design"
-        }, 
-        {
-            "location": "/#developers-info", 
-            "text": "How to Contribute  Developer resources", 
-            "title": "Developers Info"
-        }, 
-        {
-            "location": "/#sub-projects", 
-            "text": "OAH-shell    OAH-Env    OAH Ansible Roles    OAH ENV STATS    OAH INFRA STATS    OAH Tools    OAH Installer", 
-            "title": "Sub projects"
-        }, 
-        {
-            "location": "/#release-plan", 
-            "text": "Visit this link  Release Plan  for the detailed description.", 
-            "title": "Release Plan"
-        }, 
-        {
-            "location": "/#roadmap", 
-            "text": "Visit this link  Roadmap .", 
-            "title": "Roadmap"
-        }, 
-        {
-            "location": "/#usage", 
-            "text": "Purpose should be  Training and Evaluation  Instruction  visit  oah-installer  Link to  OAH User Guide", 
-            "title": "Usage"
-        }, 
-        {
-            "location": "/#oah-cook-book", 
-            "text": "", 
-            "title": "OAH COOK BOOK"
         }, 
         {
             "location": "/#license", 
@@ -112,17 +72,77 @@
         }, 
         {
             "location": "/design/oah-components/", 
-            "text": "", 
+            "text": "OAH Core Components\n\n\nOAH Shell\n\n\noah-shell is the command line utility which install the ove and ove vm/cluster nodes on a machine,vm or cluster\n\n\nyou can find the sub project \nhere\n\n\nOAH VM\n\n\nThe Default Environment for OAH. \n\n\nOAH Core Roles\n\n\ncore base oah roles\n: \n\n\nhere\n\n\nOAH Extensions\n\n\nOAH VMs\n\n\nAn \nOAH VM\n is a git repository that can provision a specific OAH vm\n\n\nPlease find the list of available ove vms \nhere\n and their current stats on the OAH-stat page.\n\n\nOAH Clusters\n\n\nAn \nOAH cluster\n is a git repository that can provision a cluster of vms\n\n\nPlease find the list of available oah clusters \nhere\n and their current stats on the ove-stat page.\n\n\nOAH Ansible Roles\n\n\nThese are the basic building blocks for OAH Environment.\n\n\ncustom roles\n : \n\n\nhere\n\n\nOAH SDK and Infra\n\n\nOAH Tools\n\n\nThis are the list of tools that are used to build and validate OAH VMs and Clusters\n\n\nOAH ENV STATS\n\n\noah-env-stats is has the nightly stats of the oah environment that have been regressed in the oah test infra\n\n\nusing an oah-test-vm\n\n\nOAH Installer\n\n\nUsed to make an OAH release and install OAH.", 
             "title": "OAH Components"
         }, 
         {
-            "location": "/design/oah-vm-specification/", 
+            "location": "/design/oah-components/#oah-core-components", 
             "text": "", 
+            "title": "OAH Core Components"
+        }, 
+        {
+            "location": "/design/oah-components/#oah-shell", 
+            "text": "oah-shell is the command line utility which install the ove and ove vm/cluster nodes on a machine,vm or cluster  you can find the sub project  here", 
+            "title": "OAH Shell"
+        }, 
+        {
+            "location": "/design/oah-components/#oah-vm", 
+            "text": "The Default Environment for OAH.", 
+            "title": "OAH VM"
+        }, 
+        {
+            "location": "/design/oah-components/#oah-core-roles", 
+            "text": "core base oah roles :   here", 
+            "title": "OAH Core Roles"
+        }, 
+        {
+            "location": "/design/oah-components/#oah-extensions", 
+            "text": "", 
+            "title": "OAH Extensions"
+        }, 
+        {
+            "location": "/design/oah-components/#oah-vms", 
+            "text": "An  OAH VM  is a git repository that can provision a specific OAH vm  Please find the list of available ove vms  here  and their current stats on the OAH-stat page.", 
+            "title": "OAH VMs"
+        }, 
+        {
+            "location": "/design/oah-components/#oah-clusters", 
+            "text": "An  OAH cluster  is a git repository that can provision a cluster of vms  Please find the list of available oah clusters  here  and their current stats on the ove-stat page.", 
+            "title": "OAH Clusters"
+        }, 
+        {
+            "location": "/design/oah-components/#oah-ansible-roles", 
+            "text": "These are the basic building blocks for OAH Environment.  custom roles  :   here", 
+            "title": "OAH Ansible Roles"
+        }, 
+        {
+            "location": "/design/oah-components/#oah-sdk-and-infra", 
+            "text": "", 
+            "title": "OAH SDK and Infra"
+        }, 
+        {
+            "location": "/design/oah-components/#oah-tools", 
+            "text": "This are the list of tools that are used to build and validate OAH VMs and Clusters", 
+            "title": "OAH Tools"
+        }, 
+        {
+            "location": "/design/oah-components/#oah-env-stats", 
+            "text": "oah-env-stats is has the nightly stats of the oah environment that have been regressed in the oah test infra  using an oah-test-vm", 
+            "title": "OAH ENV STATS"
+        }, 
+        {
+            "location": "/design/oah-components/#oah-installer", 
+            "text": "Used to make an OAH release and install OAH.", 
+            "title": "OAH Installer"
+        }, 
+        {
+            "location": "/design/oah-vm-specification/", 
+            "text": "Layout\n\n\nEach environment must be a git repository\n\n\nThe Folder structure is a below\n\n\nOAH_ENV_ROOT \n\n- provisioning \n   |- oah-install.yml\n   |- oah-remove.yml\n   |- oah-reset.yml\n   |- oah-update.yml\n   |- oah-validate.yml\n   |- oah-requirements.yml \n\n- testing\n\n- host\n   |-vagrant\n   |-docker\n   |-runc \n\n- oah-config.yml\n- install.sh\n\n\n\n\n\nNaming Convention\n :\n\n\nThe Environment repository will have the following naming convention OAH-XXXX-VM . where XXXX is the VM Type Name that uniquely identified the purpose of the VM\n\n\nMust Have files\n : \n\n\nEnvironment provisioning folder must have the following playbook\n\n\n\n\noah-install.yml, # To install the environment\n\n\noah-reset.yml , # To reset the environment\n\n\noah-remove.yml , # To remove the environment\n\n\noah-update.yml , # To update the environment\n\n\noah-validate.yml , # For validation of Environment\n\n\noah-requirements.yml, Requirements yaml to install required roles \n\n\n\n\nEnvironments must have \n\n\noah-config.yml\n in {OAH_ENV_ROOT} folder\n\n\nDepending on the environment modes supported it can also have \n\n\nVagrantFile\n,in {OAH_ENV_ROOT}/host/vagrant folder ,  \n\n\nDockerFile\n,  in docker folder {OAH_ENV_ROOT}/host/docker \n\n\nMakefile\n in the runc folder {OAH_ENV_ROOT}/host/runc\n\n\nAn optional raw install script called \ninstall.sh\n in top level  {OAH_ENV_ROOT} folder\n\n\nEnvironment Setting\n\n\nOAH_ENV_ROOT should be set to the toplevel root folder.", 
             "title": "OAH VM Specification"
         }, 
         {
             "location": "/design/oah-role-specification/", 
-            "text": "", 
+            "text": "Layout\n\n\nMust be a GIT repo accesible to oah-shell\n\n\nMust be a valid Ansible Role\n\n\nNaming Convention\n :\n\n\nMust follow the naming convention of \nansible-role-oah-XXXX\n where XXXX is the oah community accepted name that clearly mentions the purpose of the roles.\n\n\nMust Have files\n : \n\n\nEach oah ansible role must have the following Task files in the tasks folder of the ansible role\n\n\n\n\nmain.yml\n\n\noah-install.yml\n\n\noah-remove.yml\n\n\noah-reset.yml\n\n\noah-update.yml \n\n\noah-validate.yml\n\n\n\n\nOAH task yml files should have tasks to safely install, update, reset , validate or remove the all changes done by the role. \n\n\nEach OAH role will have a in-built Task to validate (and determine) if the role has been successfully installed.\n\n\nEACH OAH Roles must follow the best practices as mentioned(http://docs.ansible.com/ansible/playbooks_best_practices.html)\n\n\nOAH Ansible Role  Variables\n\n\nAll OAH Ansible Variables will begin with a oah_\n\n\noah_command : Is used to determine the operation mode of a role. \n\n\noah_command param can have the following values =\n \ninstall\n , \nremove\n , \nreset\n , \nupdate\n and \nvalidate\n )\n\n\noah_command will default to update , it can have values install,remove, reset, update and validate. (i.e If OAH_COMMAND env variable is not set by the oah-scripts and if the environment playbooks are not set by the oah_command variable, main.yml will include oah_update.yml or oah_install.yml if the role has not be installed yet.)", 
             "title": "OAH ROLE Specification"
         }, 
         {
@@ -132,7 +152,7 @@
         }, 
         {
             "location": "/design/oah-cluster-specification/", 
-            "text": "", 
+            "text": "Layout\n\n\nOAH CLUSTER will be a git repository\n\n\nMust have a provisioning and testing folder\n\n\nNaming Convention\n :\n\n\nOAH CLUSTER git repository will have the following naming convention OAH-XXXX-CLUSTER . where XXXX is the VM Type Name that uniquely identified the purpose of the VM\n\n\nMust Have files\n : \n\n\nMust have an invertory file and each group in the inventory file can have one or more vm\n\n\nOAH CLUSTER provisioning folder must have subfolder for each vm in the cluster\n\n\nEach vm in the cluster will have playbook.yml as well as install.yml, reset.yml \n remove.yml \nMust have a requirements.yml in the each vm folder\n\n\nOAH CLUSTER must have VagrantFile,in vagrant folder ,\n\nDockerFile  in docker folder and a raw install.sh in top level ove-cluster root folder", 
             "title": "OAH Cluster Specification"
         }, 
         {

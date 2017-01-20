@@ -175,7 +175,29 @@
           <div role="main">
             <div class="section">
               
-                
+                <p><strong>Layout</strong></p>
+<p>Must be a GIT repo accesible to oah-shell</p>
+<p>Must be a valid Ansible Role</p>
+<p><strong>Naming Convention</strong> :</p>
+<p>Must follow the naming convention of <strong><em>ansible-role-oah-XXXX</em></strong> where XXXX is the oah community accepted name that clearly mentions the purpose of the roles.</p>
+<p><strong>Must Have files</strong> : </p>
+<p>Each oah ansible role must have the following Task files in the tasks folder of the ansible role</p>
+<ul>
+<li>main.yml</li>
+<li>oah-install.yml</li>
+<li>oah-remove.yml</li>
+<li>oah-reset.yml</li>
+<li>oah-update.yml </li>
+<li>oah-validate.yml</li>
+</ul>
+<p>OAH task yml files should have tasks to safely install, update, reset , validate or remove the all changes done by the role. </p>
+<p>Each OAH role will have a in-built Task to validate (and determine) if the role has been successfully installed.</p>
+<p>EACH OAH Roles must follow the best practices as mentioned(http://docs.ansible.com/ansible/playbooks_best_practices.html)</p>
+<p><strong>OAH Ansible Role  Variables</strong></p>
+<p>All OAH Ansible Variables will begin with a oah_</p>
+<p>oah_command : Is used to determine the operation mode of a role. </p>
+<p>oah_command param can have the following values =&gt; <strong>install</strong> , <strong>remove</strong> , <strong>reset</strong> , <strong>update</strong> and <strong>validate</strong> )</p>
+<p>oah_command will default to update , it can have values install,remove, reset, update and validate. (i.e If OAH_COMMAND env variable is not set by the oah-scripts and if the environment playbooks are not set by the oah_command variable, main.yml will include oah_update.yml or oah_install.yml if the role has not be installed yet.)</p>
               
             </div>
           </div>

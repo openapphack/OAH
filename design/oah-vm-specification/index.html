@@ -175,7 +175,52 @@
           <div role="main">
             <div class="section">
               
-                
+                <p><strong>Layout</strong></p>
+<p>Each environment must be a git repository</p>
+<p>The Folder structure is a below</p>
+<pre><code>OAH_ENV_ROOT 
+
+- provisioning 
+   |- oah-install.yml
+   |- oah-remove.yml
+   |- oah-reset.yml
+   |- oah-update.yml
+   |- oah-validate.yml
+   |- oah-requirements.yml 
+
+- testing
+
+- host
+   |-vagrant
+   |-docker
+   |-runc 
+
+- oah-config.yml
+- install.sh
+
+</code></pre>
+
+<p><strong>Naming Convention</strong> :</p>
+<p>The Environment repository will have the following naming convention OAH-XXXX-VM . where XXXX is the VM Type Name that uniquely identified the purpose of the VM</p>
+<p><strong>Must Have files</strong> : </p>
+<p>Environment provisioning folder must have the following playbook</p>
+<ul>
+<li>oah-install.yml, # To install the environment</li>
+<li>oah-reset.yml , # To reset the environment</li>
+<li>oah-remove.yml , # To remove the environment</li>
+<li>oah-update.yml , # To update the environment</li>
+<li>oah-validate.yml , # For validation of Environment</li>
+<li>oah-requirements.yml, Requirements yaml to install required roles </li>
+</ul>
+<p>Environments must have </p>
+<p><strong>oah-config.yml</strong> in {OAH_ENV_ROOT} folder</p>
+<p>Depending on the environment modes supported it can also have </p>
+<p><strong>VagrantFile</strong>,in {OAH_ENV_ROOT}/host/vagrant folder ,  </p>
+<p><strong>DockerFile</strong>,  in docker folder {OAH_ENV_ROOT}/host/docker </p>
+<p><strong>Makefile</strong> in the runc folder {OAH_ENV_ROOT}/host/runc</p>
+<p>An optional raw install script called <strong>install.sh</strong> in top level  {OAH_ENV_ROOT} folder</p>
+<p><strong>Environment Setting</strong></p>
+<p>OAH_ENV_ROOT should be set to the toplevel root folder.</p>
               
             </div>
           </div>
